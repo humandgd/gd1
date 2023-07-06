@@ -1,0 +1,55 @@
+section{
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+.hero{
+    background-image: url(images/hero.jpg);
+    text-align: center;
+    color:#fff;
+    padding-top: 10vh;
+}
+
+    
+
+.menu{
+    background-image: url(images/menu.jpg);
+    /*
+    display: flex;
+    align-items: center;
+    */
+}
+.wrapper {
+    width:100%;
+    max-width:900px;
+    margin:0 auto;
+}
+.contact {
+    background-image: url(images/contact.jpg);
+}
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size:7rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom:2rem;
+}
+
+
+/*
+スマホで見た場合に適用されるCSS: メディアクエリー
+*/
+@media (max-width: 700px){
+    .title{
+        font-size:4rem;
+    }
+}
+/*
+PCで見た場合に適用されるCSS: メディアクエリー
+@media (min-width:700px){
+    .title {
+        font-size:7rem;
+    }
+} 
+*/
