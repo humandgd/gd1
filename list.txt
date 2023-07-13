@@ -1,9 +1,5 @@
 Abe
 https://abe-haruka.github.io/gd1/kadai1/
-Sugiura
-
-Ninagawa
-
 Kimura
 https://koto033.github.io/gd1/kadai1/
 Shimizu
@@ -18,3 +14,6 @@ Kamada
 https://kamaken0817.github.io/gd1/kadai1/
 Ishikawa
 https://fukimonkey.github.io/gd1/kadai1/
+Sugiura
+
+Ninagawa
