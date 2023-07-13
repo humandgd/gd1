@@ -1,0 +1,123 @@
+body{
+  
+  font-family: 'Dancing Script', cursive;
+font-family: 'Kaisei Opti', serif;
+
+text-align: center;
+}
+
+section{
+  height: 100vh;
+  scroll-snap-align: start;
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+} 
+h1{
+  font-size: 7rem;
+  color:aliceblue;
+}
+h2{
+  font-size: 5rem;
+}
+p{
+  font-size: 2rem;
+}
+table{
+  font-size: 2rem;
+  margin:0 auto;
+  width: 70rem; 
+  height:4rem;
+  background-color: rgba(100, 100, 100, 0.3);
+  border-radius: 8px;
+  color: aliceblue;
+  
+
+}
+.JAL{
+  background-color: red;
+  color:aliceblue;
+  padding: 0.03rem 3rem;
+  border-radius: 6px;
+
+}
+.ANA{
+  background-color: blue;
+  color:aliceblue;
+  padding: 0.03rem 3rem;
+  border-radius: 6px;
+}
+.skymark{
+  background-color: darkblue;
+  color: yellow;
+  padding: 0.03rem 3rem;
+  border-radius: 6px;
+
+}
+.starflyer{
+  background-color: black;
+  color: aliceblue;
+  padding: 0.03rem 3rem;
+  border-radius: 6px;
+
+}
+.AIRDO{
+  background-color: aqua;
+  color: yellow;
+  padding: 0.03rem 3rem;
+  border-radius: 6px;
+
+}
+.Solaseed{
+  background-color: greenyellow;
+  color: gray;
+  padding: 0.03rem 3rem;
+  border-radius: 6px;
+}
+
+.containar{
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  }
+  
+.top{
+  background-image: url(img/airplane-3702676_1280.jpeg);
+  color: aliceblue;
+  padding-top: 10vh;
+
+}
+.hokkaido{
+  background-image: url(img/hokkaido-g5594b7578_1280.jpg);
+}
+.tohoku{
+  background-image: url(img/tohoku.jpg);
+}
+.kantoizu{
+  background-image: url(img/kantohachijyojima.jpg);
+}
+.chubu{
+  background-image: url(img/nagoyacastle.jpg);
+}
+.kinki{
+  background-image: url(img/osakadoutonbori.jpg);
+}
+.chugoku{
+  background-image: url(img/hiroshimaitsukushima.jpg);
+}
+.shikoku{
+  background-image: url(img/ehimekirouzan.jpg);
+}
+.kyushu{
+  background-image: url(img/nagasakihoousetenbosu.jpg);
+}
+.okinawa{
+  background-image: url(img/okinawa-gf8b5c7343_1280.jpg);
+}
+
+@media(max-width: 700px){
+  .title{
+      font-size: 4rem;
+  }
+  
+}
